@@ -31,7 +31,24 @@
         <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
         <link rel="shortcut icon" href="images/ico/favicon.ico">
         
-
+         <script type="text/javascript">
+          function validarTel(){
+          if(registro.tel.value=="")
+      {
+        alert("Por favor ingrese un valor");
+        registro.tel.focus();
+        return false;
+      }
+      
+      if(isNaN(registro.tel.value))
+      {
+        alert("Por favor ingrese un número");
+        registro.tel.focus();
+        return false;
+      }  
+      return true;
+      }
+      </script>
 
 
 
@@ -935,24 +952,7 @@
     </form>
   </div>
   <div class="form">
-      
-      function validarTel(){
-      if(registro.tel.value=="")
-      {
-        alert("Por favor ingrese un valor");
-        registro.tel.focus();
-        return false;
-      }
-      
-      if(isNaN(registro.tel.value))
-      {
-        alert("Por favor ingrese un número");
-        registro.tel.focus();
-        return false;
-      }  
-      return true;
-      }
-      
+     
     <h2>Crear una cuenta nueva</h2>
     <form name="registro" method="post" action="#" >
       <input type="text" placeholder="Nombre de Usuario"/>
