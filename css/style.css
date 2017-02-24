@@ -1024,7 +1024,8 @@ p {
   position: absolute;
   top: -0;
   right: -0;
-  background: #943126; /*cuiadrito superior derecho*/
+  /*background: #943126; /*cuiadrito superior derecho*/
+	
   width: 30px;
   height: 30px;
   margin: -5px 0 0;
