@@ -24,6 +24,10 @@
         <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
+         <!--login -->
+          <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
+          <link rel="stylesheet" href="css/stylelog.css">
+        
         <!-- Fav and touch icons -->
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
@@ -955,46 +959,61 @@
                 </div>
 <!-- __________________________________________________ Ingresar--> 
 
-<div id="ingresar">    
-        <div class="section primary-section">            
-                <div class="triangle"></div>                
-                    <center>
-                    <h2 style="color:#EEEE6E">Ingresar</h2>
-                    <center>  
-                    <p>Registre con nosotros y podrás realizar apartados de cualquiera de nuestros productos.</p>
 
-                        <!-- Form Module-->
-<div class="module form-module">
-  <div class="toggle"><i class="fa fa-times fa-pencil"></i>
-    <div class="tooltip">Registrarse</div>
+<div class="login-wrap">
+<div class="login-html">
+  <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+  <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+  <div class="login-form">
+    <div class="sign-in-htm">
+      <div class="group">
+        <label for="user" class="label">Username</label>
+        <input id="user" type="text" class="input">
+      </div>
+      <div class="group">
+        <label for="pass" class="label">Password</label>
+        <input id="pass" type="password" class="input" data-type="password">
+      </div>
+      <div class="group">
+        <input id="check" type="checkbox" class="check" checked>
+        <label for="check"><span class="icon"></span> Keep me Signed in</label>
+      </div>
+      <div class="group">
+        <input type="submit" class="button" value="Sign In">
+      </div>
+      <div class="hr"></div>
+      <div class="foot-lnk">
+        <a href="#forgot">Forgot Password?</a>
+      </div>
+    </div>
+    <div class="sign-up-htm">
+      <div class="group">
+        <label for="user" class="label">Username</label>
+        <input id="user" type="text" class="input">
+      </div>
+      <div class="group">
+        <label for="pass" class="label">Password</label>
+        <input id="pass" type="password" class="input" data-type="password">
+      </div>
+      <div class="group">
+        <label for="pass" class="label">Repeat Password</label>
+        <input id="pass" type="password" class="input" data-type="password">
+      </div>
+      <div class="group">
+        <label for="pass" class="label">Email Address</label>
+        <input id="pass" type="text" class="input">
+      </div>
+      <div class="group">
+        <input type="submit" class="button" value="Sign Up">
+      </div>
+      <div class="hr"></div>
+      <div class="foot-lnk">
+        <label for="tab-1">Already Member?</a>
+      </div>
+    </div>
   </div>
-    
-  <div class="form">
-    <h2>Ingresa tu usuario y contraseña</h2>
-    <form>
-      <input type="text" placeholder="Nombre de usuario"/>
-      <input type="password" placeholder="Contraseña"/>
-      <button>Login</button>
-    </form>
-  </div>
-  <div class="form">
-     
-    <h2>Crear una cuenta nueva</h2>
-    <form name="registro" method="post" action="#" >
-      <input type="text" name="username" placeholder="Nombre de Usuario"/>
-      <input type="password" name="password" placeholder="Contraseña"/>
-      <input type="email" name="correo" placeholder="Dirección de e-mail"/>
-      <input type="tel" name="tel" placeholder="Número de tel."/>
-      <input type="radio" name="Género" value="Masculino" >Masculino
-      <input type="radio" name="Género" value="Femenino">Femenino
-      <input type="submit" value="Registrar" onclick="return funcionesRegistro();"/>
-    </form>
-  </div>
-  <div class="cta"><a href="#">¿Olvidaste tu contraseña?</a></div>
-</div>                     
-                        
-        </div> <!-- fin seccioón negra http://andytran.me -->    
-</div>         
+</div>
+</div>
 
 <!-- __________________________________________________________________ -->
 
