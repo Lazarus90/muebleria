@@ -36,6 +36,9 @@
 
     #943126    "Tinto" botones
 */
+
+@import url("normalize.css");
+
  body {
     font-family:'Roboto', sans-serif;
     color: #FFF
@@ -98,7 +101,7 @@ p {
      border: 1px solid #181A1C; /* Color de margen de cuadros de menú */    
      border: 1px solid #EEEE6E;
     box-shadow: none;
-    font-size:15px;
+    font-size:12px;
     text-shadow: none;
     color: #fff;
     transition: border-color 1s ease;
@@ -268,9 +271,12 @@ p {
 {
   color: #3E3636;
   text-shadow: #943126 3px 3px 4px;
-  font-size: 50px;
+  font-size:350%;
   margin: 10px;
-  font-family: Compacta Blk BT;
+  font-family: Verdana; 
+
+
+
 
 }
 /*
@@ -1024,8 +1030,7 @@ p {
   position: absolute;
   top: -0;
   right: -0;
-  /*background: #943126; /*cuiadrito superior derecho*/
-	
+  background: #943126; /*cuiadrito superior derecho*/
   width: 30px;
   height: 30px;
   margin: -5px 0 0;
@@ -1090,10 +1095,8 @@ p {
 }
 .form-module button {
   cursor: pointer;
-  /* background: #33b5e5; 
-	*/
+  /* background: #33b5e5; */
   background: #943126;
-	
 
   width: 100%;
   border: 0;
@@ -1118,3 +1121,7 @@ p {
   color: #333333;
   text-decoration: none;
 }
+
+
+<div class="w3-display-topright">Bienvenidodo [Nombre de usuario]</div>
+            <span class="glyphicon">&#xe116;</span>
